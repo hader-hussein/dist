@@ -1,0 +1,96 @@
+@media (min-width: 1200px){
+ 
+    [dir="ltr"] .me-auto {
+      margin-right: 0px!important;
+  }
+  [dir="rtl"] .me-auto {
+    margin-right: 0px!important;
+  }
+  }
+  /*****/
+  [dir="rtl"] .navbar-nav .dropdown-menu {
+    text-align: right;
+  }
+  /****/
+  [dir="ltr"] .list-footer .fa-map-marker-alt:before,
+[dir="ltr"] .list-footer .fa-phone-alt:before,
+[dir="ltr"] .list-footer .fa-envelope:before
+
+{
+  margin-right: 20px;
+}
+[dir="rtl"] .list-footer .fa-map-marker-alt:before,
+[dir="rtl"] .list-footer .fa-phone-alt:before,
+[dir="rtl"] .list-footer .fa-envelope:before,
+[dir="rtl"] .reset-list .fas::before  
+{
+  margin-left: 20px;
+}
+/*****/
+[dir="rtl"] .contact-method .me-3 {
+    margin-left: 1rem!important;
+}
+/****/
+[dir="ltr"] .reset-list .fas::before {
+  margin-right: 10px;
+}
+[dir="rtl"] .reset-list .fas::before {
+  margin-left: 10px;
+
+}
+/******/
+[dir="ltr"] .tx-icon-new{
+  text-align:right;
+}
+[dir="rtl"] .tx-icon-new{
+  text-align: left;
+}
+[dir="rtl"] .text-end {
+  text-align: left!important;
+}
+/******/
+[dir="ltr"] .form-index-modal .input-group input,
+[dir="ltr"] .form-index-modal .input-group textarea
+{
+border-left: 0px;
+}
+[dir="ltr"] .form-index-modal .input-group span{
+  border-right: 0px;
+}
+
+[dir="rtl"] .form-index-modal .input-group input,
+[dir="rtl"] .form-index-modal .input-group textarea
+{
+border-right: 0px;
+}
+[dir="rtl"] .form-index-modal .input-group span{
+  border-left: 0px;
+}
+[dir="rtl"] .carousel-index  .carousel-indicators {
+  right: 8%;
+
+}
+[dir="rtl"] .coarousel-new .carousel-control-next-icon,
+
+[dir="rtl"] .coarousel-new .carousel-control-prev-icon{
+  transform: rotate(174deg);
+}
+[dir="rtl"] .row-table li:not(:first-child):not(:last-child)::before
+{
+  right: -8%;
+}
+[dir="ltr"] .row-table li:not(:first-child):not(:last-child)::before
+{
+  left: -8%;
+}
+[dir="rtl"] pre{
+  font-family:'Cairo','sans-serif' !important;
+}
+
+[dir="ltr"] pre{
+  font-family: 'Segoe UI','sans-serif' !important;
+}
+
+[dir="rtl"] .p-ceo{
+  display: none;
+}
